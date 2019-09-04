@@ -9,3 +9,4 @@ A simple object orient program game to help visualize and learn syntax in JavaSc
 - implemented the onKeyUp and onKeyDown functions in order to move the object using the arrow keys
 - implemented the "step" function in order to call on the draw and update function to update the frame based on user input
 - spawned the crabs at random x and y coordiantes using getRandomInt
+- implemented the checkCollisions function to avoid character objects to go out of the frame
