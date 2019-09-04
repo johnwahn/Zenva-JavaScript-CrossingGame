@@ -132,17 +132,9 @@ ctx.drawImage(sprites.background,0,0);
 ctx.drawImage(sprites.player, player.x, player.y);
 ctx.drawImage(sprites.treasure, treasure.x, treasure.y);
 
-// ctx.fillStyle = player.color;
-// ctx.fillRect(player.x, player.y, player.width, player.height);
-
-// ctx.fillStyle = treasure.color;
-// ctx.fillRect(treasure.x, treasure.y, treasure.width, treasure.height);
-
 enemies.forEach(function(element) {
 
 ctx.drawImage(sprites.enemy, element.x, element.y);
-// ctx.fillStyle = element.color;
-// ctx.fillRect(element.x, element.y, element.width, element.height);
 });
 }
 
