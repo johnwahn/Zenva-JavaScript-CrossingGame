@@ -46,7 +46,8 @@ function getRandomInt(max, min) {
 
 	return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-	
+
+//spawn the enemies at random locations for every refresh
 var enemies = [
 
 	new GameCharacter(getRandomInt(screenWidth-50, 335), getRandomInt(70, screenHeight-60), 50 , 50,"blue", 4, 4), 
